@@ -2,6 +2,8 @@
 
 This repository contains the code and configuration files for a HomeKit ESP8266 Panasonic AC controller. With this project, you can control your Panasonic air conditioner remotely using Apple's HomeKit platform.
 
+![Homekit-Screenshot](https://github.com/geek-ragazza/homekit-esp8266-panasonic-ac/blob/main/homekit-screenshot.png)
+
 ## Project Overview
 
 Tired of coming home to a sweltering hot apartment? Wish you could magically summon a cool breeze at your command? Look no further! The HomeKit ESP8266 Panasonic AC Controller is here to save the day (and your comfort).
