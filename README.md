@@ -61,6 +61,27 @@ Before setting up the controller, make sure you have the following prerequisites
     
 6.  Start Homebridge on your Raspberry Pi. Get ready to unleash the magic of your smart AC controller!
 
+## Additional References
+
+For additional inspiration and ideas, you can also check out the following references:
+
+-   [IRremoteESP8266](https://github.com/Arduino-IRremote/Arduino-IRremote): The IRremoteESP8266 library provides the necessary tools for IR communication with Panasonic AC units.
+    
+-   [homebridge-daikin-esp8266](https://github.com/oznu/homebridge-daikin-esp8266): Explore this project to see how similar AC control functionality has been implemented for Daikin AC units using ESP8266 and Homebridge.
+    
+-   [homebridge-web-thermostat](https://github.com/phenotypic/homebridge-web-thermostat#readme): Get inspired by this project, which offers a web-based thermostat control interface for Homebridge.
+    
+-   [homebridge-http-temperature-sensor](https://github.com/Supereg/homebridge-http-temperature-sensor#readme): This project provides a guide on setting up an HTTP-based temperature sensor for Homebridge, which you can adapt for your ESP8266-based temperature sensing.
+    
+
+## TODO / Future Improvements
+
+Here are some possible enhancements you can consider for the project:
+
+-   Support for DHT temperature and humidity sensors: Extend the controller's functionality to incorporate DHT sensors to measure both temperature and humidity. This can provide a more comprehensive climate control experience.
+    
+-   Heating mode support: Currently, the `currentHeatingCoolingState` is set only for cooling. To enable heating or auto modes, you need to modify the code to handle these states accordingly. This will allow you to control the Panasonic AC unit for heating purposes as well.
+
 ## Usage
 
 Once the setup is complete, open the Home app on your iOS device and behold the power of HomeKit ESP8266 Panasonic AC Controller. From the palm of your hand, you can now control your air conditioner with just a few taps.
