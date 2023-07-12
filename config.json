@@ -1,0 +1,22 @@
+{
+    "bridge": {
+       
+    },
+    "accessories": [
+        {
+            "accessory": "Thermostat",
+            "name": "My Thermostat",
+            "apiroute": "http://<your-esp8266-ip>/thermostat",
+            "temperatureDisplayUnits": 1
+        },
+        {
+            "accessory": "HTTP-TEMPERATURE",
+            "name": "My Temperature Sensor",
+            "getUrl": "http://<your-esp8266-ip>/temperature"
+        }
+        
+    ],
+    "platforms": [
+        
+    ]
+}
